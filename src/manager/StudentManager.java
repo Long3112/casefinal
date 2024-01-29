@@ -22,11 +22,11 @@ public class StudentManager extends LoginManager {
     }
 
     public void read() {
-        students = FileS.read();
+        students = FileS.readStudent();
     }
 
     public void write() {
-        FileS.write(students);
+        FileS.writeStudent(students);
     }
 
 
